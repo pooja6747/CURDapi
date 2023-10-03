@@ -9,7 +9,8 @@ const app = express();
 //middleware
 app.use(express.json())
 
-
+//cors
+app.use(cors())
 
 //default routee
 app.get('/', (req, res) => {
