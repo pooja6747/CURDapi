@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const userRoute = require('./Route/userRoute')
 require('dotenv/config')
+const cors = require('cors')
 
 //init
 const app = express();
